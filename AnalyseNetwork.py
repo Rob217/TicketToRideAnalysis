@@ -15,6 +15,8 @@ import matplotlib.pyplot as plt
 from matplotlib import cm
 from matplotlib.colors import ListedColormap, LinearSegmentedColormap
 import matplotlib.colors as mcolors
+from PIL import Image
+import numpy as np
 
 
 
@@ -167,16 +169,30 @@ class Network():
                 'O': [0.5, 0.5, 0], \
                 'R': 'r'}
 
-    fig = plt.figure(1)
+    my_dpi = 100
+    fig = plt.figure(1, figsize=(1024/my_dpi, 683/my_dpi))
+
+    im = Image.open('T2R_USA_MAP.jpg')
+    height = im.size[1]
+    im = np.array(im).astype(np.float) / 255
+    fig.figimage(im, 0, 0, resize=False, alpha=0.5)
+    print(np.shape(im))
+
+
+    ax = plt.axes([0, 0, 1, 1])
     # dims = (1052.3622, 744.09448) # overall dimensions
     dims = (1, 1)
     plt.xlim([0, dims[0]])
     plt.ylim([0, dims[1]])
-    # plt.axis('off')
-    ax = plt.gca()
-    # ax.set_facecolor([184/255, 255/255, 126/255])
+    plt.axis('off')
+    # ax = plt.gca()
 
-    cmap = cm.get_cmap('viridis', 12)
+    # ax.set_facecolor([184/255, 255/255, 126/255])
+    # fig.patch.set_alpha(0.5)
+    # ax.set_facecolor('None')
+
+    # cmap = cm.get_cmap('viridis', 12)
+    cmap = cm.get_cmap('winter', 12)
     # fig.colorbar(cm.ScalarMappable(norm=1, cmap=cmap))
 
     max_cost = self.route_costs_info[tickets_name]['max_cost']
@@ -196,12 +212,16 @@ class Network():
 
       col = cmap((connection.route_cost[tickets_name] - min_cost)/(max_cost-min_cost))
       # col = plotCols[connection.color]
-      plt.plot([x1, x2], [y1, y2], color = col)
+      plt.plot([x1, x2], [y1, y2], color = col, linewidth = 5)
 
 
     # for key in self.cities:
     #   x, y = self.cities[key].getLocation()
     #   plt.scatter(x, y)
+
+
+
+    plt.savefig('Route_costs.pdf')
 
     plt.show()
 

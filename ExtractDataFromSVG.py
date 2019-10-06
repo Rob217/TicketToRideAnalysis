@@ -1,4 +1,5 @@
 import pickle
+from pprint import pprint
 
 f = open('USA Map with annotations.svg', 'r')
 
@@ -19,7 +20,6 @@ for l in f:
                 dims.append(float(nums[0:nums.find(' ')]))
             nums = nums[nums.find(' ')+1:]
             k += 1
-        print(dims)
 
     elif l.find('label="Stations"') != -1:
         inStations = True
@@ -28,15 +28,24 @@ for l in f:
         inStations = False
 
     elif inStations:
+        if l.find('translate') != -1:
+            transform="translate(0,-61.094493)"
+            i = l.find('translate(') + 10
+            j = i + l[i:].find(',')
+            k = j + l[j:].find(')')
+            translate_x = float(l[i:j])/dims[0]
+            translate_y = float(l[j+1:k])/dims[1]
+
         if l.find('<circle') != -1:
             name = ''
             cx = 0
             cy = 0
 
         elif l.find('</circle>') != -1:
-            stationLocations[name] = (cx, cy)
+            radius = (rx, ry)
+            stationLocations[name] = (cx - translate_x, cy - translate_y)
 
-        elif l.find('cßx=') != -1:
+        elif l.find('cx=') != -1:
             i = l.find('cx=') + 4
             j = i + l[i:].find('"')
             cx = float(l[i:j])/dims[0]
@@ -51,7 +60,15 @@ for l in f:
             j = l.find('</title>')
             name = l[i:j]
 
-print(stationLocations)
+        elif l.find('r=') != -1:
+            i = l.find('r=') + 3
+            j = i + l[i:].find('"')
+            rx = float(l[i:j])/dims[0]
+            ry = float(l[i:j])/dims[1]
+
+pprint(stationLocations)
+print('radius = ', radius)
+print('translate = ', translate_x, translate_y)
 
 f.close()
 

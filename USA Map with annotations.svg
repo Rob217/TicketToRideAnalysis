@@ -10,9 +10,9 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 1052.3622 744.09448"
+   width="1023.9999"
+   height="683"
+   viewBox="0 0 1024 683.00001"
    id="svg4362"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -1852,12 +1852,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.98994949"
-     inkscape:cx="697.59263"
-     inkscape:cy="384.49598"
+     inkscape:cx="872.8541"
+     inkscape:cy="-59.971136"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer2"
      showgrid="false"
-     inkscape:showpageshadow="false" />
+     inkscape:showpageshadow="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px" />
   <metadata
      id="metadata4367">
     <rdf:RDF>
@@ -1866,7 +1871,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1874,8 +1879,8 @@
      inkscape:label="Map"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-308.26772)"
-     sodipodi:insensitive="true">
+     transform="translate(0,-369.36221)"
+     style="display:inline">
     <image
        y="369.36221"
        x="0"
@@ -1889,7 +1894,8 @@
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Stations"
-     sodipodi:insensitive="true">
+     transform="translate(0,-61.094493)"
+     style="display:inline">
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="path4976"
@@ -2215,8 +2221,4 @@
          id="title5137">Station:Winnipeg</title>
     </circle>
   </g>
-  <g
-     inkscape:groupmode="layer"
-     id="layer3"
-     inkscape:label="Routes" />
 </svg>
