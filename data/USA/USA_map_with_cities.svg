@@ -1893,7 +1893,7 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="Stations"
+     inkscape:label="Cities"
      transform="translate(0,-61.094493)"
      style="display:inline">
     <circle
@@ -1903,7 +1903,7 @@
        cy="166.3802"
        r="6.7857141">
       <title
-         id="title4978">Station:Vancouver</title>
+         id="title4978">City:Vancouver</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1912,7 +1912,7 @@
        id="circle4999"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5001">Station:Seattle</title>
+         id="title5001">City:Seattle</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1921,7 +1921,7 @@
        cy="272.45163"
        r="6.7857141">
       <title
-         id="title5005">Station:Portland</title>
+         id="title5005">City:Portland</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1930,7 +1930,7 @@
        id="circle5007"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5009">Station:Calgary</title>
+         id="title5009">City:Calgary</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1939,7 +1939,7 @@
        id="circle5011"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5013">Station:San Francisco</title>
+         id="title5013">City:San Francisco</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1948,7 +1948,7 @@
        cy="404.95163"
        r="6.7857141">
       <title
-         id="title5017">Station:Salt Lake City</title>
+         id="title5017">City:Salt Lake City</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1957,7 +1957,7 @@
        id="circle5019"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5021">Station:Las Vegas</title>
+         id="title5021">City:Las Vegas</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1966,7 +1966,7 @@
        cy="573.16595"
        r="6.7857141">
       <title
-         id="title5025">Station:Los Angeles</title>
+         id="title5025">City:Los Angeles</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1975,7 +1975,7 @@
        id="circle5027"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5029">Station:Phoenix</title>
+         id="title5029">City:Phoenix</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -1984,7 +1984,7 @@
        cy="526.73737"
        r="6.7857141">
       <title
-         id="title5033">Station:Santa Fe</title>
+         id="title5033">City:Santa Fe</title>
     </circle>
     <circle
        r="6.7857141"
@@ -1993,7 +1993,7 @@
        id="circle5035"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5037">Station:El Paso</title>
+         id="title5037">City:El Paso</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2002,7 +2002,7 @@
        cy="504.95166"
        r="6.7857141">
       <title
-         id="title5041">Station:Oklahoma City</title>
+         id="title5041">City:Oklahoma City</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2011,7 +2011,7 @@
        id="circle5043"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5045">Station:Dallas</title>
+         id="title5045">City:Dallas</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2020,7 +2020,7 @@
        cy="632.80884"
        r="6.7857141">
       <title
-         id="title5049">Station:Houston</title>
+         id="title5049">City:Houston</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2029,7 +2029,7 @@
        id="circle5051"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5053">Station:Little Rock</title>
+         id="title5053">City:Little Rock</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2038,7 +2038,7 @@
        cy="621.02313"
        r="6.7857141">
       <title
-         id="title5057">Station:New Orleans</title>
+         id="title5057">City:New Orleans</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2047,7 +2047,7 @@
        id="circle5059"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5061">Station:Atlanta</title>
+         id="title5061">City:Atlanta</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2056,7 +2056,7 @@
        cy="500.66599"
        r="6.7857141">
       <title
-         id="title5065">Station:Charleston</title>
+         id="title5065">City:Charleston</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2065,7 +2065,7 @@
        id="circle5067"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5069">Station:Miami</title>
+         id="title5069">City:Miami</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2074,7 +2074,7 @@
        cy="458.16599"
        r="6.7857141">
       <title
-         id="title5073">Station:Nashville</title>
+         id="title5073">City:Nashville</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2083,7 +2083,7 @@
        id="circle5075"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5077">Station:Raleigh</title>
+         id="title5077">City:Raleigh</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2092,7 +2092,7 @@
        cy="367.80884"
        r="6.7857141">
       <title
-         id="title5081">Station:Washington</title>
+         id="title5081">City:Washington</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2101,7 +2101,7 @@
        id="circle5083"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5085">Station:Pittsburgh</title>
+         id="title5085">City:Pittsburgh</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2110,7 +2110,7 @@
        cy="277.09454"
        r="6.7857141">
       <title
-         id="title5089">Station:New York</title>
+         id="title5089">City:New York</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2119,7 +2119,7 @@
        id="circle5091"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5093">Station:Boston</title>
+         id="title5093">City:Boston</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2128,7 +2128,7 @@
        cy="230.66597"
        r="6.7857141">
       <title
-         id="title5097">Station:Toronto</title>
+         id="title5097">City:Toronto</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2137,7 +2137,7 @@
        id="circle5099"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5101">Station:Montreal</title>
+         id="title5101">City:Montreal</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2146,7 +2146,7 @@
        id="circle5103"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5105">Station:Sault St. Marie</title>
+         id="title5105">City:Sault St. Marie</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2155,7 +2155,7 @@
        cy="336.7374"
        r="6.7857141">
       <title
-         id="title5109">Station:Chicago</title>
+         id="title5109">City:Chicago</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2164,7 +2164,7 @@
        id="circle5111"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5113">Station:Kansas City</title>
+         id="title5113">City:Kansas City</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2173,7 +2173,7 @@
        cy="419.95166"
        r="6.7857141">
       <title
-         id="title5117">Station:Saint Louis</title>
+         id="title5117">City:Saint Louis</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2182,7 +2182,7 @@
        id="circle5119"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5121">Station:Omaha</title>
+         id="title5121">City:Omaha</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2191,7 +2191,7 @@
        cy="436.0231"
        r="6.7857141">
       <title
-         id="title5125">Station:Denver</title>
+         id="title5125">City:Denver</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2200,7 +2200,7 @@
        id="circle5127"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5129">Station:Duluth</title>
+         id="title5129">City:Duluth</title>
     </circle>
     <circle
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
@@ -2209,7 +2209,7 @@
        cy="281.38025"
        r="6.7857141">
       <title
-         id="title5133">Station:Helena</title>
+         id="title5133">City:Helena</title>
     </circle>
     <circle
        r="6.7857141"
@@ -2218,7 +2218,7 @@
        id="circle5135"
        style="opacity:1;fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1">
       <title
-         id="title5137">Station:Winnipeg</title>
+         id="title5137">City:Winnipeg</title>
     </circle>
   </g>
 </svg>
