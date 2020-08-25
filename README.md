@@ -91,3 +91,8 @@ This analysis so far is quite simplistic and there are many ways that it could b
 - Rather than just counting the n shortest paths, the paths could be weighted proportionally to how short they are relative to the shortest path (the challenge here is how to weight the paths appropriately for both short and long tickets).
 - This was done for the original map and original tickets with 5 players; there are many more maps, different ticket sets, and different player counts available. It would be interesting to do a more detailed analysis of all of these variables. For example, with the [1910 expansion](https://www.daysofwonder.com/tickettoride/en/usa/) to the USA map which provides many more tickets, does the increase in tickets smooth out the distribution of route probability, or is there still the difference in density between the center and the edges of the map?
 - If we can infer a properly normalised probability that given a particular ticket you would build in a particular route, then using Bayes' theorem you could infer, given that a player has built on a certain set of routes, which tickets they may or may not they are likely to have.
+
+## LICENCE
+[Licence](https://github.com/Rob217/TicketToRideAnalysis/blob/master/LICENCE)
+
+I do not own the original Ticket to Ride artwork or game information. They are [(C) Days of Wonder](https://www.daysofwonder.com/en/about/terms/). 
