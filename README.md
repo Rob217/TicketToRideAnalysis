@@ -38,7 +38,7 @@ Once I have the information about the cities, their locations, and the routes be
 
 ### Number of tickets going through each route
 
-For every route connecting two adjacent cities, it is straight forward (using the shortest path results) to calculate the shortest possible path connecting two destinations on a ticket that goes through that given route. For example, if dest_A and dest_B are the two destination cities, then the shortest path connecting dest_A and dest_B that also goes through the route connecting city_1 and city_2 is the sum of the shortest path from dest_A to city_1, the shortest path from city_2 to dest_B, and the distance between city_A and city_B. Of course it might be the other way around, means the shortest path for each route for each ticket can be calculated in linear time in the number of routes and tickets.
+For every route connecting two adjacent cities, it is straight forward (using the shortest path results) to calculate the shortest possible path connecting two destinations on a ticket that goes through that given route. For example, if dest_A and dest_B are the two destination cities, then the shortest path connecting dest_A and dest_B that also goes through the route connecting city_1 and city_2 is the sum of the shortest path from dest_A to city_1, the shortest path from city_2 to dest_B, and the distance between city_A and city_B (although it might be the other way around). The shortest path for each route for each ticket can be calculated in linear time in the number of routes and tickets.
 
 
 ## Results
