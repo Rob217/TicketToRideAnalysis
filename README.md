@@ -93,6 +93,10 @@ This analysis so far is quite simplistic and there are many ways that it could b
 - If we can infer a properly normalised probability that given a particular ticket you would build in a particular route, then using Bayes' theorem you could infer, given that a player has built on a certain set of routes, which tickets they may or may not have.
 - There are many other considerations when choosing which path to take between destinations. Longer routes are more difficult but more rewarding and more efficient. The shortest path may not be available, or you may choose a longer path to join up with other destinations. These are all valid considerations when determining whether a particular route is likely to be occupied or not.
 
+## Contributions
+
+Contributions are very welcome!
+
 ## LICENCE
 [Licence](https://github.com/Rob217/TicketToRideAnalysis/blob/master/LICENCE)
 
