@@ -1,0 +1,6 @@
+.git/
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+*.pyc
+*checkpoint.ipynb
+bin_OLD/

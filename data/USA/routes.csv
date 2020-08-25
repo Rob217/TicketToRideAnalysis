@@ -1,0 +1,101 @@
+﻿City A,City B,Distance,Color
+Vancouver,Calgary,3,X
+Vancouver,Seattle,1,X
+Vancouver,Seattle,1,X
+Seattle,Calgary,4,X
+Seattle,Helena,6,Y
+Seattle,Portland,1,X
+Seattle,Portland,1,X
+Portland,Salt Lake City,6,B
+Portland,San Francisco,5,G
+Portland,San Francisco,5,P
+San Francisco,Salt Lake City,5,O
+San Francisco,Salt Lake City,5,W
+San Francisco,Los Angeles,3,Y
+San Francisco,Los Angeles,3,P
+Los Angeles,Las Vegas,2,X
+Los Angeles,Phoenix,3,X
+Los Angeles,El Paso,6,K
+Calgary,Winnipeg,6,W
+Calgary,Helena,4,X
+Helena,Winnipeg,4,B
+Helena,Salt Lake City,3,P
+Helena,Denver,4,G
+Helena,Duluth,6,O
+Helena,Omaha,5,R
+Salt Lake City,Denver,3,R
+Salt Lake City,Denver,3,Y
+Las Vegas,Salt Lake City,3,O
+Phoenix,Denver,5,W
+Phoenix,Santa Fe,3,X
+Phoenix,El Paso,3,X
+Winnipeg,Sault St. Marie,6,X
+Winnipeg,Duluth,4,K
+Duluth,Sault St. Marie,3,X
+Duluth,Toronto,6,P
+Duluth,Chicago,3,R
+Duluth,Omaha,2,X
+Duluth,Omaha,2,X
+Omaha,Chicago,4,B
+Omaha,Kansas City,1,X
+Omaha,Kansas City,1,X
+Kansas City,Saint Louis,2,B
+Kansas City,Saint Louis,2,P
+Kansas City,Oklahoma City,2,X
+Kansas City,Oklahoma City,2,X
+Oklahoma City,Little Rock,2,X
+Oklahoma City,Dallas,2,X
+Oklahoma City,Dallas,2,X
+Dallas,Little Rock,2,X
+Dallas,Houston,1,X
+Dallas,Houston,1,X
+Houston,New Orleans,2,X
+El Paso,Houston,6,G
+El Paso,Dallas,4,R
+El Paso,Oklahoma City,5,Y
+El Paso,Santa Fe,2,X
+Santa Fe,Oklahoma City,3,B
+Oklahoma City,Denver,4,R
+Santa Fe,Denver,2,X
+Denver,Kansas City,4,K
+Denver,Kansas City,4,O
+Denver,Omaha,4,P
+New Orleans,Miami,6,R
+New Orleans,Atlanta,4,O
+New Orleans,Atlanta,4,Y
+New Orleans,Little Rock,3,G
+Little Rock,Nashville,3,W
+Little Rock,Saint Louis,2,X
+Saint Louis,Nashville,2,X
+Saint Louis,Pittsburgh,5,G
+Saint Louis,Chicago,2,G
+Saint Louis,Chicago,2,W
+Chicago,Pittsburgh,3,K
+Chicago,Pittsburgh,3,O
+Chicago,Toronto,4,W
+Sault St. Marie,Montreal,5,K
+Toronto,Montreal,3,X
+Sault St. Marie,Toronto,2,X
+Toronto,Pittsburgh,2,X
+Pittsburgh,New York,2,W
+Pittsburgh,New York,2,G
+Pittsburgh,Washington,2,X
+Pittsburgh,Raleigh,2,X
+Nashville,Raleigh,3,K
+Nashville,Atlanta,1,X
+Nashville,Pittsburgh,4,Y
+Atlanta,Miami,5,B
+Atlanta,Charleston,2,X
+Atlanta,Raleigh,2,X
+Atlanta,Raleigh,2,X
+Charleston,Miami,4,P
+Raleigh,Charleston,2,X
+Raleigh,Washington,2,X
+Raleigh,Washington,2,X
+Washington,New York,2,O
+Washington,New York,2,K
+New York,Boston,2,Y
+New York,Boston,2,R
+New York,Montreal,3,B
+Boston,Montreal,2,X
+Boston,Montreal,2,X
