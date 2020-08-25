@@ -61,7 +61,7 @@ If we just include the shortest path, then unsurprisingly most of the routes onl
 ![Histogram for 5 shortest paths](plots/hist_5_shortest.png)
 ![Heatmap for 5 shortest paths](plots/heat_map_5_shortest.png)
 
-Increasing the number so that we now include routes which are in one of the five shortest paths between each pair of destinations, there is now a greater variety in the number of tickets any individual route can contribute to. At one extreme, the route between Miami and New Orleans in the South East corner contributes to only a single ticket (Los Angeles -> Miami), while the route between Saint Louis and Chicago (the bright pink route in the middle) contributes to 21 different tickets. 
+Increasing the number so that we now include routes which are in one of the 5 shortest paths between each pair of destinations, there is now a greater variety in the number of tickets any individual route can contribute to. At one extreme, the route between Miami and New Orleans in the south east corner contributes to only a single ticket (Los Angeles -> Miami), while at the other extreme the route between Saint Louis and Chicago (the bright pink route in the middle) contributes to 21 different tickets. 
 
 #### n = 10
 
@@ -69,19 +69,19 @@ Increasing the number so that we now include routes which are in one of the five
 ![Heatmap for 10 shortest paths](plots/heat_map_10_shortest.png)
 
 Increasing the number of shortest paths even further starts to reveal a clear distinction between two categories of routes:
-1. routes around the edge which take part in relatively few tickets (with Miami -> New Orleans again the smallest contributing to just 7 tickets)
-2. routes in the center which take part in many tickets (there is a peak of 17 routes that contribute to 23 tickets)
+1. Routes around the edge which take part in relatively few tickets (with Miami -> New Orleans again the smallest contributing to just 7 tickets)
+2. Routes in the center which take part in many tickets (there is a peak of 17 routes that contribute to 23 tickets)
 
 
 ## Conclusions
 
-Having played this map many times I could have predicted that the long routes around the edge are relatively unused while those at the center are much more likely to be occupied. However, it is interesting to see that the probability is greatest in the small area around Oklahoma City, Little Rock, Kansas City, Saint Louis, and Chicago.
+Having played this map many times, the conclusion that the long routes around the edge are less likely to be occupied than those at the center seems to agree with my experience. However, it is interesting to identify that the probability is greatest in the small area around Oklahoma City, Little Rock, Kansas City, Saint Louis, and Chicago.
 
 It is an interesting question how best to use this information. 
 
 - Do you choose tickets that go through regions of high occupation, since you have a good chance of drawing more tickets that go through those same regions?
-- Do you instead choose tickets along unoccupied routes, such as down to Miami, knowing the competition for those routes will likely be less?
-- Do you build on the short high occupation routes at the beginning of the game, regardless of where you tickets go, both to block others and to keep your options open for later in the game?
+- Do you instead choose tickets along low-occupation routes, such as down to Miami, knowing the competition for those routes will likely be less?
+- Do you build on the short high-occupation routes at the beginning of the game, regardless of where you tickets go, both to block others and to keep your options open for later in the game?
 
 
 ## Future plans
@@ -89,8 +89,8 @@ It is an interesting question how best to use this information.
 This analysis so far is quite simplistic and there are many ways that it could be improved or expanded. For example:
 
 - Rather than just counting the n shortest paths, the paths could be weighted proportionally to how short they are relative to the shortest path (the challenge here is how to weight the paths appropriately for both short and long tickets).
-- This was done for the original map and original tickets with 5 players; there are many more maps, different ticket sets, and different player counts available. It would be interesting to do a more detailed analysis of all of these variables. For example, with the [1910 expansion](https://www.daysofwonder.com/tickettoride/en/usa/) to the USA map which provides many more tickets, does the increase in tickets smooth out the distribution of route probability, or is there still the difference in density between the center and the edges of the map?
-- If we can infer a properly normalised probability that given a particular ticket you would build in a particular route, then using Bayes' theorem you could infer, given that a player has built on a certain set of routes, which tickets they may or may not they are likely to have.
+- This analysis was done for the original map and original tickets with 5 players; there are many more maps, different ticket sets, and different player counts available. It would be interesting to do a more detailed analysis of all of these variables. For example, with the [1910 expansion](https://www.daysofwonder.com/tickettoride/en/usa/) to the USA map which provides many more tickets, does the increase in tickets smooth out the distribution of route probability, or is there still the difference in density between the center and the edges of the map?
+- If we can infer a properly normalised probability that given a particular ticket you would build in a particular route, then using Bayes' theorem you could infer, given that a player has built on a certain set of routes, which tickets they may or may not have.
 - There are many other considerations when choosing which path to take between destinations. Longer routes are more difficult but more rewarding and more efficient. The shortest path may not be available, or you may choose a longer path to join up with other destinations. These are all valid considerations when determining whether a particular route is likely to be occupied or not.
 
 ## LICENCE
